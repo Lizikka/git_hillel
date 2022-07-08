@@ -1,7 +1,10 @@
 var firstName = prompt ("Enter Your  first name");
-console.log (firstName);
-var lastName = prompt ("Enter Your  last name")
-console.log (lastName);
+
+var lastName = prompt ("Enter Your  last name");
+
 var yearOfBirth = prompt ("Enter Your year of birth  ");
+
 var age = 2022 - yearOfBirth;
-console.log (age);
+
+document.write( "User Bio:" + " " + firstName + " "  + lastName + "," + " " +   age + " years old"  )
+
