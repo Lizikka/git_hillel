@@ -1,10 +1,11 @@
-var firstName = prompt ("Enter Your  first name");
+let firstName = prompt ("Enter Your  first name");
 
-var lastName = prompt ("Enter Your  last name");
+let lastName = prompt ("Enter Your  last name");
 
-var yearOfBirth = prompt ("Enter Your year of birth  ");
+let yearOfBirth = prompt ("Enter Your year of birth  ");
 
-var age = 2022 - yearOfBirth;
+const year = Number ("2022");
 
-document.write( "User Bio:" + " " + firstName + " "  + lastName + "," + " " +   age + " years old"  )
+let age = year  - yearOfBirth;
 
+document.write( "User Bio:" + " " + firstName + " "  + lastName + "," + " " + age + " years old"  );
